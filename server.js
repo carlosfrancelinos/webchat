@@ -17,7 +17,7 @@ io.on('connection', function(socket){
 });
 
 // inicia o servidor na porta informada
-const PORT = process.env.PORT || process.env.WEBCHAT_SERVER || 3000;
-http.listen(3000, function(){
-  console.log('Servidor rodando em: http://localhost:3000');
+const PORT = process.env.PORT || process.env.WEBCHAT_SERVER || 21088;
+http.listen(21088, function(){
+  console.log('Servidor rodando em: http://localhost:21088');
 });
